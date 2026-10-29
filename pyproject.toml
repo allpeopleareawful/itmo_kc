@@ -1,0 +1,17 @@
+[project]
+name = "karpovcourses"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "allpeopleareawful", email = "egor.kozlov.03@mail.ru" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+karpovcourses = "karpovcourses:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
