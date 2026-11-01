@@ -1,0 +1,5 @@
+#Напишите функцию circle_square, которая принимает на вход радиус radius и возвращает (через return) площадь круга. Напомним, что для круга с радиусом r площадь S считается по формуле S=πr 2. Считайте π=3.14
+
+def circle_square(radius: float) -> float:
+    '''calculates the area of a circle.'''
+    return 3.14 * radius ** 2

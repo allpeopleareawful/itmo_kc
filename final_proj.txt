@@ -1,0 +1,13 @@
+zapros sql 5 urok
+'''
+SELECT 
+        post_id,
+        COUNT(*) AS likes, 
+        COUNT(DISTINCT user_id) AS unique_liked_users, 
+        MAX(time) AS last_like_time
+    FROM feed_action
+    WHERE action = 'like'
+    GROUP BY post_id
+    ORDER BY likes DESC
+    LIMIT 20;
+'''

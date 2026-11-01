@@ -1,0 +1,30 @@
+# много другого кода, который тоже печатает
+# ...
+# Код коллеги
+
+def math_task(data):
+    answer = []
+    # возводим в третью степень
+    for elem in data:
+        answer += [elem ** 3]
+    print("###")
+    print(answer)
+    print("###")
+    # берем остаток от деления на 7
+    for i in range(len(answer)):
+        answer[i] = answer[i] % 7
+    print("###")
+    print(answer)
+    print("###")
+    # прибавляем к остатку изначальный массив
+    for i in range(len(answer)):
+        answer[i] = answer[i] + data[i]
+    # возвращаем результат
+    print("###")
+    print(answer)
+    print("###")
+    return answer
+
+math_task(test_data)
+# print(math_task([1, 4, 5, 9])) # пример для самопроверки
+    
