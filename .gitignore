@@ -1,0 +1,33 @@
+# Виртуальные окружения
+.venv/
+venv/
+env/
+finalproject/
+
+# Кэш Python и скомпилированные файлы
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Настройки редакторов и IDE
+.vscode/
+.idea/
+
+# Переменные окружения и секреты (пароли, доступы к БД)
+.env
+.env.*
+
+# Системные файлы ОС
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Данные и черновики (раскомментируйте, если не нужно отправлять в Git)
+# *.csv
+# playstore.csv
+# final_proj.txt
