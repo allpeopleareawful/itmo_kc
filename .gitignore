@@ -28,6 +28,9 @@ Thumbs.db
 .ipynb_checkpoints/
 
 # Данные и черновики (раскомментируйте, если не нужно отправлять в Git)
-# *.csv
+*.csv
 # playstore.csv
-# final_proj.txt
+final_proj.txt
+
+__pycache__/
+*.py[cod]
