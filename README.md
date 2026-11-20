@@ -4,4 +4,4 @@
 
 ## Структура репозитория
 * **Ветка `main`** (текущая) — домашние задания, практика по Python, SQL, классическому ML, нейросетям и статистике.
-* **Ветка [`final_project`](https://github.com)** — финальный проект курса: бэкенд-сервис персональных рекомендаций постов на FastAPI и PostgreSQL.
+* **Ветка [`final_project`](https://github.com/allpeopleareawful/itmo_kc/tree/final_project)** — финальный проект курса: бэкенд-сервис персональных рекомендаций постов на FastAPI и PostgreSQL.
